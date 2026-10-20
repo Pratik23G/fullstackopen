@@ -19,9 +19,15 @@ const App = () => {
 
   return (
     <div>
+      <h2>Give Feedback</h2>
       <button onClick={goodClick}>good</button>
       <button onClick={neutralClick}>neutral</button>
       <button onClick={badClick}>bad</button>
+
+      <p>Statistics</p>
+      <p>good {good}</p>
+      <p>neutral {neutral}</p>
+      <p>bad {bad}</p>
     </div>
   );
 };
